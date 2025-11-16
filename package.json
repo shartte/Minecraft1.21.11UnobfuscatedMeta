@@ -1,0 +1,13 @@
+{
+  "name": "minecraft-manifest-generator",
+  "version": "1.0.0",
+  "description": "Downloads ZIPs, extracts JSONs, and generates Minecraft Launcher Manifest V2",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "adm-zip": "^0.5.10"
+  },
+  "type": "module"
+}
